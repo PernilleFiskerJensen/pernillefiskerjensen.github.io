@@ -1,0 +1,82 @@
+body {
+    background-color: #F5D6BA;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #1E578C;
+}
+
+h2 {
+    color: #0077b6;
+}
+ .Pernille {
+    float: center;
+    width: 250px;
+     height: 350px;
+    border-radius: 10px; /* gør hjørnerne bløde */
+ /
+}
+.knap-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stil for hver "knap" (link) */
+.Knap {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: #0077b6; /* baggrund */
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.Knap:hover {
+    background-color: #005f8a; /* mørkere blå ved hover */
+    color: #1E578C;            /* gul tekst ved hover */
+    transform: translateY(-2px);
+}
+
+#om-mig {
+    max-width: 800px;          /* begræns bredden, så det ikke fylder hele skærmen */
+    margin: 60px auto;         /* centrer sektionen */
+    padding: 30px 40px;
+    background-color: #f5f5f5; /* lys baggrund */
+    border-radius: 15px;       /* bløde hjørner */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* let skygge */
+    font-family: "Arial", sans-serif;
+}
+
+#om-mig h2 {
+    text-align: center;
+    color: #0077b6;            /* matcher dine knapper */
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+#om-mig div {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;        /* luft mellem afsnit */
+    text-align: left;
+}
+
+#om-mig div::first-letter {
+    font-size: 1.3rem;          /* gør første bogstav lidt større */
+}
+
+#om-mig div span.emoji {
+    font-size: 1.4rem;          /* gør emojis en smule større */
+    margin-right: 5px;
+}
